@@ -1,0 +1,75 @@
+table{
+  border-collapse: collapse;
+  padding: 5px;
+  width: 100%;
+  color: black;
+}
+th, tr, td{
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+th{
+  background-color: slateblue;
+}
+tr:nth-child(even){
+  background-color: gray;
+}
+tr:nth-child(odd){
+  background-color: darkgray;
+}
+tr:hover{
+  background-color: lightgray;
+}
+.county{
+  padding: 5px;
+  font-size: 24px;
+}
+.county1{
+  display: inline-block;
+  border: 1px solid black;
+  width: 100%
+}
+.school{
+  padding: 5px;
+  border: 2px solid black;
+}
+.college{
+  padding: 5px;
+  border: 2px solid black;
+}
+.full{
+  display: flex;
+  padding: 5px;
+  border: 2px solid black;
+}
+.full1{
+  display: inline-block;
+  width :25%
+}
+.full2{
+  display: inline-block;
+  width: 75%;
+}
+.income{
+  padding: 5px;
+  border: 2px solid black;
+}
+h2{
+  text-align: center;
+}
+body{
+  color: slateblue;
+  background-color: black;
+}
+header{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5px;
+  border: 2px solid black;
+}
+a{
+  text-align: center;
+  font-size: 18px;
+}
+

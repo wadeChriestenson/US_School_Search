@@ -1,0 +1,62 @@
+#us-map{
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90%;
+  height: 100%;
+}
+path:hover, circle:hover {
+  stroke: black !important;
+  stroke-width:2px;
+  stroke-linejoin: round;
+  fill: gray !important;
+  cursor: pointer;
+
+
+}
+#path67 {
+  fill: none !important;
+  stroke: gray !important;
+  cursor: default;
+}
+#info-box {
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 5px;
+  font-family: arial;
+}
+aside{
+  color: white;
+  flex-direction: row;
+  width: 25%;
+  position: absolute;
+  right: 0px;
+  font-size: 18px;
+  padding: 5px;
+  width: 350px;
+}
+h1{
+  text-align: center;
+  font-size: 36px;
+}
+h2{
+  margin-top: 10px;
+}
+ul{
+  margin-top: 0px;
+}
+.logout{
+  float: right;
+}
+img{
+  width: 350px;
+  height: 300px;
+}
